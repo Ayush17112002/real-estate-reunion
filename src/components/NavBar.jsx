@@ -14,7 +14,7 @@ const NavBar = () => {
     singleValue: (defaultStyles) => ({ ...defaultStyles, color: "#000000" }),
   };
   return (
-    <div className="navbar backdrop-blur-3xl fixed top-0 flex flex-row w-full h-24 border-b-2">
+    <div className="navbar backdrop-blur-3xl fixed top-0 flex flex-row w-full h-24 border-b-2 z-10">
       <span className="logo relative flex flex-row items-center ml-5 mr-5">
         <NavBarItem className="font-semibold text-xl">Estatery</NavBarItem>
       </span>
