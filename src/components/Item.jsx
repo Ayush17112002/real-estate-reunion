@@ -7,7 +7,7 @@ const Item = ({ propertyDetails, id }) => {
       className={`relative ${id} h-72 w-52 p-2 border-[1] shadow-md mb-2 rounded-lg`}
     >
       <img
-        src={`/public/assets/${image}`}
+        src={`/static/images/${image}`}
         height="70%"
         width="100%"
         className="relative"
